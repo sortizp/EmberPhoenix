@@ -41,5 +41,6 @@ defmodule LibraryApiWeb.Endpoint do
   plug Plug.MethodOverride
   plug Plug.Head
   plug Plug.Session, @session_options
+  plug CORSPlug, origins: "*"
   plug LibraryApiWeb.Router
 end
