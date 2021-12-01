@@ -42,7 +42,8 @@ defmodule LibraryApi.MixProject do
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
       {:cors_plug, "~> 2.0"},
-      {:ja_serializer, "~> 0.16.0"}
+      {:ja_serializer, "~> 0.16.0"},
+      {:poison, "~> 3.1"}
     ]
   end
 
